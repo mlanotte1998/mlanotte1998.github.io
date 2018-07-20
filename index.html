@@ -23,7 +23,7 @@ body, html {
 .bgimg {
     background-position: center;
     background-size: cover;
-    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Free-Game-Brotherhood-Of-Steel-Images-PIC-WPC008357.jpg");
+    background-image: url("bosheader.jpg");
     min-height: 90%;
 }
  
@@ -369,8 +369,8 @@ body, html {
       </form>
     </div>
     <div class="w3-half">
-      <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+      <img src="selfphoto.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      
     </div>
   </div>
 </div>
@@ -388,26 +388,8 @@ body, html {
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
- 
-<!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-
-// Modal Image Gallery
+<!--  Modal Image Gallery --> 
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
@@ -431,12 +413,8 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+</script> 
+
 
 </body>
 </html>
