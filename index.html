@@ -55,7 +55,6 @@ body, html {
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 40px;
 }
 
 #resume{
@@ -78,6 +77,13 @@ body, html {
     float: none !important;
 }
 
+ .centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 	
 </style>
 <body>
@@ -89,7 +95,7 @@ body, html {
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
 	    <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT ME</a>
-      <a href="#resume" class="w3-bar-item w3-button"><i class="fa fa-file-pdf-o"></i> RESUME</a>
+      <a href="#resume" class="w3-bar-item w3-button"><i class="fa fa-file"></i> RESUME</a>
       <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
@@ -182,9 +188,9 @@ body, html {
 </div>
 --> 
 
-<div id="resume" class="w3-container w3-grey maxwidth" style="padding: 0px 16px 0px 16px">
-	<img src="bosspace.jpg" alt="Space" class="w3-center"> 
-	<a href="ResumeSummer2018.pdf" class="placeholder">See Resume</a>
+<div id="resume" class="w3-container-wide w3-black">
+	<img src="bosspace.jpg" alt="Space" class="centerimage"> 
+	<a href="ResumeSummer2018.pdf" class="placeholder w3-center w3-button w3-white"><i class="fa fa-file-pdf-o"></i> See Resume</a>
 	<!-- <a href="ResumeSummer2018.pdf" class="arrowbtn" style="color:white;">SEE RESUME ></a> -->
 </div>
 
