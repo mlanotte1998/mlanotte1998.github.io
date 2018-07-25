@@ -22,18 +22,4 @@ Current Website Release
 
 First main version of the website was finished in August 2018
 
-#. Bump the version number in ``tendrl/commons/__init__.py`` and commit your
-   changes.
-   ::
 
-      python setup.py bumpversion
-
-#. Tag and push to GitHub.
-   ::
-
-      python setup.py release
-
-#. Make an SRPM.
-   ::
-
-      make srpm
