@@ -2,12 +2,12 @@
 mlanotte1998.github.io
 ===============================
 
-Common code usable by all Tendrl sds side components
+Welcome to the repository for for my personal website: My website includes:
 
-* Free software: LGPL2.1
-* Documentation: https://github.com/Tendrl/commons/tree/master/doc/source
-* Source: https://github.com/Tendrl/commons
-* Bugs: https://github.com/Tendrl/commons/issues
+* An About Me
+* My latest Resume
+* My most important Projects
+* Contact information 
 
 Folders
 --------
@@ -17,10 +17,10 @@ Folders
 * photos = Includes all images used on the website
 
 
-Release process
+Current Website Release
 ---------------
 
-When you are ready to cut a new version:
+First main version of the website was finished in August 2018
 
 #. Bump the version number in ``tendrl/commons/__init__.py`` and commit your
    changes.
@@ -37,16 +37,3 @@ When you are ready to cut a new version:
    ::
 
       make srpm
-
-
-
-Developer/Install documentation
--------------------------------
-
-We also have sphinx documentation in ``docs/source``.
-
-*To build it, run:*
-
-::
-
-    $ python setup.py build_sphinx
