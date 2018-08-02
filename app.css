@@ -1,0 +1,113 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+
+/* Full height image header */
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("photos/bosheader.jpg");
+    min-height: 100%;
+} 
+
+
+/* button padding */
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 75%;
+}
+
+
+/* Resume Text Centered with icon in mind */
+.resumetext {
+    font-size: 24px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Mobile Header Text Align */
+.mobheadtext { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 95%;
+}
+
+
+/* Max Width for About Me */
+.maxwidth {
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+
+/* Max Width for header */
+.maxheader {
+    max-width: 875px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+
+/* Center an Image with not full width */
+ .centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+/* Center an Image with full width */
+ .centerimage2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+
+/* Custom line height used to reduce space between text when small */
+.small-line-height {
+        line-height: 120%
+}
+
+#resume{
+
+        background-color:#D8D8D8;
+        position:relative;
+}
+
+#resume2{
+        position:relative;
+}
+
+
+
+#home{
+        position:relative;
+}
+
+#home2{
+        position:relative;
+}
+

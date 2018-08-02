@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link type="text/css" rel="stylesheet" href="app.css"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 
 <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
@@ -31,18 +31,11 @@ body, html {
 }   
  
 
-/* Image for background of Resume */
-.bgimg2 {
-	background-position: center;
-	background-size: cover;
-	background-image: url("photos/bosspace.jpg");
-}
-
-
- 
+/* button padding */ 
 .w3-bar .w3-button {
     padding: 16px;
 }
+
 
 /* Centered text */
 .centered {
@@ -53,7 +46,8 @@ body, html {
     width: 75%; 
 }
 
-.placeholder {
+/* Resume Text Centered with icon in mind */ 
+.resumetext {
     font-size: 24px;
     position: absolute;
     top: 48%;
@@ -61,7 +55,8 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
-.placeholder2 { 
+/* Mobile Header Text Align */
+.mobheadtext { 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -106,6 +101,7 @@ body, html {
     float: none !important;
 }
 
+/* Center an Image with not full width */ 
  .centerimage {
     display: block;
     margin-left: auto;
@@ -113,7 +109,7 @@ body, html {
     width: 90%;
 }
 
- 
+/* Center an Image with full width */ 
  .centerimage2 {
     display: block;
     margin-left: auto;
@@ -121,6 +117,7 @@ body, html {
     width:100%;
 }
 
+/* Custom line height used to reduce space between text when small */ 
 .small-line-height {
 	line-height: 120%
 }
@@ -188,9 +185,9 @@ body, html {
 
 
 <!--Mobile Header--> 
-<div class="mobimg w3-hide-large w3-hide-medium" id="home2">
+<div class="w3-hide-large w3-hide-medium" id="home2">
 	<img src="photos/bosport.png" alt="Space" class="centerimage2" style="width:100">
-        <div class="w3-center w3-text-white placeholder2" style="padding:48px">
+        <div class="w3-center w3-text-white mobheadtext" style="padding:48px">
 	     <span class="w3-xxlarge small-line-height ">Welcome To My Website</span>
 	     <br>
 	     <div style="height:10px;"><br></div>
@@ -245,12 +242,12 @@ body, html {
 
 <div id="resume" class="w3-container-wide w3-black w3-hide-small">
 	<img src="photos/bosspace.jpg" alt="Space" class="centerimage"> 
-	<a href="other_files/ResumeAugust2018.pdf" class="placeholder w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
+	<a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
 </div>
 
 <div class="w3-hide-large w3-hide-medium" id="resume2">
         <img src="photos/bosspacemob.png" alt="SpaceMobile" class="centerimage2" style="width:100">
-         <a href="other_files/ResumeAugust2018.pdf" class="placeholder w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
+         <a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
 </div> 
 
 
