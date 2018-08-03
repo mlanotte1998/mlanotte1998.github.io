@@ -12,15 +12,14 @@
 <link type="text/css" rel="stylesheet" href="app.css"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 
-<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
-<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
-
 <style>   
-.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}
-	
 </style>
 <body>
 
+<!--================================================================================================= -->
+<!--================================================================================================= --> 
+
+	
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
@@ -48,7 +47,10 @@
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
-	
+
+<!--================================================================================================= -->
+<!--================================================================================================= -->
+
 
 <!-- Header with full-height image --> 
 <header class="bgimg w3-display-container w3-grayscale-min w3-hide-small" id="home">
@@ -72,10 +74,12 @@
   </div>
 </header>
 
+<!--================================================================================================= -->
+<!--================================================================================================= -->
 
-<!-- Trying to pussh mobile photo down --> 
+
+<!-- Trying to push mobile header down --> 
 <div class="w2-container w3-hide-large w3-hide-medium" style="padding:15px" id="home2"></div> 
-
 
 
 <!--Mobile Header--> 
@@ -91,6 +95,8 @@
 </div> 
 
 
+<!--================================================================================================== -->
+<!--================================================================================================== --> 
 
 
 <!-- About Section -->
@@ -127,33 +133,36 @@
 </div>
 
 
-<!-- Trying to pussh mobile photo down -->
-<div class="w2-container w3-hide-large w3-hide-medium" style="padding:28px" id="resume2"></div>
+<!--================================================================================================== -->
+<!--================================================================================================== --> 
 
-<!-- Trying to pussh mobile photo down -->
+
+<!-- Container to make menu button not cut off photo  -->
 <div class="w2-container  w3-white w3-hide-small" style="padding:28px" id="resume"></div>
 
 
+<!-- Desktop Resume --> 
 <div id="resume" class="w3-container-wide w3-black w3-hide-small">
 	<img src="photos/bosspace.jpg" alt="Space" class="centerimage"> 
 	<a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
 </div>
 
+<!--=================================================================================================== -->
+<!--=================================================================================================== --> 
+
+<!-- Containter to make sidebar button make the photo not cut off -->
+<div class="w2-container w3-hide-large w3-hide-medium" style="padding:28px" id="resume2"></div>
+
+
+<!-- Mobile Resume --> 
 <div class="w3-hide-large w3-hide-medium" id="resume2">
         <img src="photos/bosspacemob.png" alt="SpaceMobile" class="centerimage2" style="width:100">
-         <a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
+        <a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
 </div> 
 
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
+<!-- =================================================================================================== -->
+<!-- =================================================================================================== -->
 
 
 <!-- Contact Section -->
@@ -186,14 +195,15 @@
         </p>
       </form>
     </div> 
-
     <div class="w3-half">
       <img src="photos/selfphoto.jpg" style="width:100%">
-      
     </div>
   </div>
 </div>
 
+
+<!-- ======================================================================================================== -->
+<!-- ======================================================================================================== -->
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64">
@@ -209,6 +219,9 @@
   </div>
 </footer>
 
+
+<!-- ======================================================================================================== -->
+<!-- ======================================================================================================== --> 
 
 
 <!-- Toggle between showing and hiding the sidebar when clicking the menu icon --> 
