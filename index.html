@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head> 
-  <title>mlanotte.com</title>
-  <link rel="icon" href="photos/LaSmall.png">
+<head>
+    <title>mlanotte.com</title>
+    <link rel="icon" href="photos/LaSmall.png">
 </head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,39 +12,41 @@
 <link type="text/css" rel="stylesheet" href="app.css"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 
-<style>   
+<style>
 </style>
 <body>
 
 <!--================================================================================================= -->
-<!--================================================================================================= --> 
+<!--================================================================================================= -->
 
-	
+
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-	  <a href="#home" class="w3-bar-item w3-button w3-wide w3-hide-small">Michael Lanotte</a>
-    <a href="#home2" class="w3-bar-item w3-button w3-wide w3-hide-medium w3-hide-large">Michael Lanotte</a>
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-	    <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT ME</a>
-      <a href="#resume" class="w3-bar-item w3-button"><i class="fa fa-file"></i> RESUME</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-    </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="#home" class="w3-bar-item w3-button w3-wide w3-hide-small">Michael Lanotte</a>
+        <a href="#home2" class="w3-bar-item w3-button w3-wide w3-hide-medium w3-hide-large">Michael Lanotte</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+            <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT ME</a>
+            <a href="#resume" class="w3-bar-item w3-button"><i class="fa fa-file"></i> RESUME</a>
+            <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+           onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#resume2" onclick="w3_close()" class="w3-bar-item w3-button">RESUME</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
+     id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#resume2" onclick="w3_close()" class="w3-bar-item w3-button">RESUME</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
 
@@ -52,115 +54,129 @@
 <!--================================================================================================= -->
 
 
-<!-- Header with full-height image --> 
+<!-- Header with full-height image -->
 <header class="bgimg w3-display-container w3-grayscale-min w3-hide-small" id="home">
-  <div class="w3-center centered w3-text-white maxheader" style="padding:12px" id="hometext">
-    <span class="w3-jumbo w3-hide-small">Welcome To My Website</span><br>
-    <span class="w3-xlarge w3-hide-large w3-hide-medium">Welcome To My Website</span><br>
-    <span class="w3-large w3-hide-small">I'm a sophomore at Northeastern University going for a Computer Science major with minors
+    <div class="w3-center centered w3-text-white maxheader" style="padding:12px" id="hometext">
+        <span class="w3-jumbo w3-hide-small">Welcome To My Website</span><br>
+        <span class="w3-xlarge w3-hide-large w3-hide-medium">Welcome To My Website</span><br>
+        <span class="w3-large w3-hide-small">I'm a sophomore at Northeastern University going for a Computer Science major with minors
       in Math and Electrical Engineering</span>
-     <span class="w3-medium w3-hide-large w3-hide-medium">I'm a sophomore at Northeastern University going for a Computer Science major with minors
+        <span class="w3-medium w3-hide-large w3-hide-medium">I'm a sophomore at Northeastern University going for a Computer Science major with minors
       in Math and Electrical Engineering</span>
 
-    <p><a href="#contact" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Contact Me</a></p>
-  </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <a href="https://www.facebook.com/mikejlanotte"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/mlanotte1998/"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
-    <a href="https://www.snapchat.com/add/mikejl0924"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
-    <a href="https://twitter.com/LanotteMike"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-    <a href="https://github.com/mlanotte1998"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/michael-lanotte-9754a2168/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  </div>
+        <p><a href="#contact"
+              class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Contact
+            Me</a></p>
+    </div>
+    <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+        <a href="https://www.facebook.com/mikejlanotte"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/mlanotte1998/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.snapchat.com/add/mikejl0924"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/LanotteMike"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://github.com/mlanotte1998"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/michael-lanotte-9754a2168/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    </div>
 </header>
 
 <!--================================================================================================= -->
 <!--================================================================================================= -->
 
 
-<!-- Trying to push mobile header down --> 
-<div class="w2-container w3-hide-large w3-hide-medium" style="padding:15px" id="home2"></div> 
+<!-- Trying to push mobile header down -->
+<div class="w2-container w3-hide-large w3-hide-medium" style="padding:15px" id="home2"></div>
 
 
-<!--Mobile Header--> 
+<!--Mobile Header-->
 <div class="w3-hide-large w3-hide-medium" id="home2">
-	<img src="photos/bosport.png" alt="Space" class="centerimage2" style="width:100">
-        <div class="w3-center w3-text-white mobheadtext" style="padding:48px">
-	     <span class="w3-xxlarge small-line-height ">Welcome To My Website</span>
-	     <br>
-	     <div style="height:10px;"><br></div>
-             <span class="w3-medium">I'm a sophomore at Northeastern University going for a Computer Science major with minors
+    <img src="photos/bosport.png" alt="Space" class="centerimage2" style="width:100">
+    <div class="w3-center w3-text-white mobheadtext" style="padding:48px">
+        <span class="w3-xxlarge small-line-height ">Welcome To My Website</span>
+        <br>
+        <div style="height:10px;"><br></div>
+        <span class="w3-medium">I'm a sophomore at Northeastern University going for a Computer Science major with minors
       in Math and Electrical Engineering</span>
-	</div> 
-</div> 
-
-
-<!--================================================================================================== -->
-<!--================================================================================================== --> 
-
-
-<!-- About Section -->
-<div class="w2-container maxwidth" style="padding:96px 16px 32px 16px" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center w3-large"> Born and raised in Shrewsbury Massachusetts, just outside of Worcester. From a young age, 
-      my mother stayed home and helped my brother and I learn how to read and write to prepare us for school. Since elementary school,
-      I worked hard and found enjoyment in math and science. Throughout middle and high school, I slowly figured out what precisely 
-      I enjoyed about math and science. I love problem solving and those moments when I'm stuck but then finally figure it out and 
-      see the result. The major that constantly has these type of moments is definitely computer science. There is no better feeling than spending hours 
-      working out bugs on a project and then seeing it all come together to work. 
-    </p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-third">
-      <i class="fa fa-soccer-ball-o w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Sports</p>
-      <p>I played football and ran track in highschool. I workout regularly and play basketball with friends in my free time.
-         I have been snowboarding since I was eight and worked as a snowboard instructor for four years. My favorite 
-         sport to watch is college basketball. </p>
     </div>
-    <div class="w3-third">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Tech</p>
-      <p>I have been extremely interested in the latest technology for my entire life. I almost always knew I wanted to be some
-          type of engineer but only when I was seventeen did I start my path towards software/computer science and so far I love 
-          everything about it.</p>
-    </div>
-    <div class="w3-third">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Video Games</p>
-      <p>My favorite industry to follow is the gaming industry. Learning about studios and the people behind games 
-          is important to me. If you need to know when a game is coming out or who made it, I'm the guy to talk to.
-	  Also, you can likely tell that I'm a huge fallout fan.</p>
-    </div>
-  </div>
 </div>
 
 
 <!--================================================================================================== -->
-<!--================================================================================================== --> 
+<!--================================================================================================== -->
+
+
+<!-- About Section -->
+<div class="w2-container maxwidth" style="padding:96px 16px 32px 16px" id="about">
+    <h3 class="w3-center">ABOUT ME</h3>
+    <p class="w3-center w3-large"> Born and raised in Shrewsbury Massachusetts, just outside of Worcester. From a young
+        age,
+        my mother stayed home and helped my brother and I learn how to read and write to prepare us for school. Since
+        elementary school,
+        I worked hard and found enjoyment in math and science. Throughout middle and high school, I slowly figured out
+        what precisely
+        I enjoyed about math and science. I love problem solving and those moments when I'm stuck but then finally
+        figure it out and
+        see the result. The major that constantly has these type of moments is definitely computer science. There is no
+        better feeling than spending hours
+        working out bugs on a project and then seeing it all come together to work.
+    </p>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <div class="w3-third">
+            <i class="fa fa-soccer-ball-o w3-margin-bottom w3-jumbo w3-center"></i>
+            <p class="w3-large">Sports</p>
+            <p>I played football and ran track in highschool. I workout regularly and play basketball with friends in my
+                free time.
+                I have been snowboarding since I was eight and worked as a snowboard instructor for four years. My
+                favorite
+                sport to watch is college basketball. </p>
+        </div>
+        <div class="w3-third">
+            <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
+            <p class="w3-large">Tech</p>
+            <p>I have been extremely interested in the latest technology for my entire life. I almost always knew I
+                wanted to be some
+                type of engineer but only when I was seventeen did I start my path towards software/computer science and
+                so far I love
+                everything about it.</p>
+        </div>
+        <div class="w3-third">
+            <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+            <p class="w3-large">Video Games</p>
+            <p>My favorite industry to follow is the gaming industry. Learning about studios and the people behind games
+                is important to me. If you need to know when a game is coming out or who made it, I'm the guy to talk
+                to.
+                Also, you can likely tell that I'm a huge fallout fan.</p>
+        </div>
+    </div>
+</div>
+
+
+<!--================================================================================================== -->
+<!--================================================================================================== -->
 
 
 <!-- Container to make menu button not cut off photo  -->
 <div class="w2-container  w3-white w3-hide-small" style="padding:28px" id="resume"></div>
 
 
-<!-- Desktop Resume --> 
+<!-- Desktop Resume -->
 <div id="resume" class="w3-container-wide w3-black w3-hide-small">
-	<img src="photos/bosspace.jpg" alt="Space" class="centerimage"> 
-	<a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
+    <img src="photos/bosspace.jpg" alt="Space" class="centerimage">
+    <a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i
+            class="fa fa-file-pdf-o"></i> See Resume</a>
 </div>
 
 <!--=================================================================================================== -->
-<!--=================================================================================================== --> 
+<!--=================================================================================================== -->
 
 <!-- Containter to make sidebar button make the photo not cut off -->
 <div class="w2-container w3-hide-large w3-hide-medium" style="padding:28px" id="resume2"></div>
 
 
-<!-- Mobile Resume --> 
+<!-- Mobile Resume -->
 <div class="w3-hide-large w3-hide-medium" id="resume2">
-        <img src="photos/bosspacemob.png" alt="SpaceMobile" class="centerimage2" style="width:100">
-        <a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i class="fa fa-file-pdf-o"></i> See Resume</a>
-</div> 
+    <img src="photos/bosspacemob.png" alt="SpaceMobile" class="centerimage2" style="width:100">
+    <a href="other_files/ResumeAugust2018.pdf" class="resumetext w3-center w3-button w3-black"><i
+            class="fa fa-file-pdf-o"></i> See Resume</a>
+</div>
 
 
 <!-- =================================================================================================== -->
@@ -168,42 +184,49 @@
 
 
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding: 128px 16px" id="contact"> 
-	<div class="maxwidth">
-	<h2 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send me a message:</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-half">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Shrewsbury, MA</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mlanotte1998@gmail.com</p>
-      <div class="w3-text-black w3-xxlarge" style="padding: 24px 8px 4px 8px">
-   	 <a href="https://www.facebook.com/mikejlanotte"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-   	 <a href="https://www.instagram.com/mlanotte1998/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-   	 <a href="https://www.snapchat.com/add/mikejl0924"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
-   	 <a href="https://twitter.com/LanotteMike"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-   	 <a href="https://github.com/mlanotte1998"><i class="fa fa-github w3-hover-opacity"></i></a>
-    	 <a href="https://www.linkedin.com/in/michael-lanotte-9754a2168/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-       </div>
-      <br>
-      <form action="https://formspree.io/mlanotte1998@gmail.com"
-      method="POST">
-        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-        <p>
-          <button class="w3-button w3-black" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </p>
-      </form>
-    </div> 
-    <div class="w3-half">
-      <img src="photos/selfphoto2.jpg" style="width:100%">
+<div class="w3-container w3-light-grey" style="padding: 128px 16px" id="contact">
+    <div class="maxwidth">
+        <h2 class="w3-center">CONTACT</h2>
+            <p class="w3-center w3-large">Lets get in touch. Send me a message:</p>
+            <div class="w3-row-padding" style="margin-top:64px">
+                <div class="w3-half">
+                    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Shrewsbury, MA</p>
+                    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mlanotte1998@gmail.com
+                    </p>
+                    <div class="w3-text-black w3-xxlarge" style="padding: 24px 8px 4px 8px">
+                        <a href="https://www.facebook.com/mikejlanotte"><i
+                                class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                        <a href="https://www.instagram.com/mlanotte1998/"><i
+                                class="fa fa-instagram w3-hover-opacity"></i></a>
+                        <a href="https://www.snapchat.com/add/mikejl0924"><i
+                                class="fa fa-snapchat w3-hover-opacity"></i></a>
+                        <a href="https://twitter.com/LanotteMike"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                        <a href="https://github.com/mlanotte1998"><i class="fa fa-github w3-hover-opacity"></i></a>
+                        <a href="https://www.linkedin.com/in/michael-lanotte-9754a2168/"><i
+                                class="fa fa-linkedin w3-hover-opacity"></i></a>
+                    </div>
+                    <br>
+                    <form action="https://formspree.io/mlanotte1998@gmail.com"
+                          method="POST">
+                        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+                        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject">
+                        </p>
+                        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                        </p>
+                        <p>
+                            <button class="w3-button w3-black" type="submit">
+                                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="w3-half">
+                    <img src="photos/selfphoto2.jpg" style="width:100%">
+                </div>
+            </div>
     </div>
-  </div>
 </div>
-</div> 
 
 
 <!-- ======================================================================================================== -->
@@ -211,41 +234,43 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey w3-hide-small"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <a href="#home2" class="w3-button w3-light-grey w3-hide-medium w3-hide-large"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <a href="https://www.facebook.com/mikejlanotte"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/mlanotte1998/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://www.snapchat.com/add/mikejl0924"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
-    <a href="https://twitter.com/LanotteMike"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-    <a href="https://github.com/mlanotte1998"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/michael-lanotte-9754a2168/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  </div>
+    <a href="#home" class="w3-button w3-light-grey w3-hide-small"><i class="fa fa-arrow-up w3-margin-right"></i>To the
+        top</a>
+    <a href="#home2" class="w3-button w3-light-grey w3-hide-medium w3-hide-large"><i
+            class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+        <a href="https://www.facebook.com/mikejlanotte"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/mlanotte1998/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.snapchat.com/add/mikejl0924"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/LanotteMike"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://github.com/mlanotte1998"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/michael-lanotte-9754a2168/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    </div>
 </footer>
 
 
 <!-- ======================================================================================================== -->
-<!-- ======================================================================================================== --> 
+<!-- ======================================================================================================== -->
 
 
-<!-- Toggle between showing and hiding the sidebar when clicking the menu icon --> 
-<script> 
-var mySidebar = document.getElementById("mySidebar");
+<!-- Toggle between showing and hiding the sidebar when clicking the menu icon -->
+<script>
+    var mySidebar = document.getElementById("mySidebar");
 
-function w3_open() {
-    if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
-    } else {
-        mySidebar.style.display = 'block';
+    function w3_open() {
+        if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+        } else {
+            mySidebar.style.display = 'block';
+        }
     }
-}
 
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
 
-</script> 
+</script>
 
 
 </body>
