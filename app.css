@@ -98,8 +98,16 @@ body, html {
 }
 
 
-#resume2{
+#resume1{
         position:relative;
+}
+
+#resume2{
+    position:relative;
+}
+
+#resume2a{
+    position:relative;
 }
 
 
@@ -107,6 +115,9 @@ body, html {
         position:relative;
 }
 
+#home1{
+    position:relative;
+}
 
 #home2{
         position:relative;
@@ -115,6 +126,6 @@ body, html {
 
 #contact{
 	position:relative;
-} 
+}
 
 
