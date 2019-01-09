@@ -1,0 +1,143 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+
+/* button padding */
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+
+/*==========================================================*/
+/* Desktop CSS classes */
+
+/* Centered text for the header photo */
+.centeredHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 75%;
+}
+
+/* Center an Image with full width */
+.centerImageFull {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+.headerFont {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Full height image header */
+.headerImage {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../photos/bostonFinancial.png");
+    min-height: 100%;
+}
+
+/* Class for a large image used at the end of the website*/
+.largeImageBoston {
+    background-image: url("../photos/stations_boston.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    border-width: 1000px;
+    z-index: 1;
+}
+
+/* Max Width for header */
+.maxWidthHeader {
+    max-width: 875px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+/* Max Width of 1080px for About Me and Contact */
+.maxWidth1080 {
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+/* Resume Text Centered with icon in mind */
+.resumeText {
+    font-size: 24px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Custom line height used to reduce space between text when small */
+.small-line-height {
+    line-height: 120%
+}
+
+/*=========================================================*/
+/* Mobile CSS classes
+
+/* Mobile Header Text Align */
+.mobHeadText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    width: 95%;
+}
+
+
+/*==========================================================*/
+/* ID CSS style */
+
+#contact{
+    position:relative;
+}
+
+#home{
+    position:relative;
+}
+
+#homeMobContainer{
+    position:relative;
+}
+
+#homeMob{
+    position:relative;
+}
+
+#projects{
+    position: relative;
+}
+
+#resume{
+        position:relative;
+}
+
+#resumeContainer{
+    background-color:#D8D8D8;
+    position:relative;
+}
+
+#resumeMobContainer{
+    position:relative;
+}
+
+#resumeMob{
+    position:relative;
+}
+
+
+
+
+
