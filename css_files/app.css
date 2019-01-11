@@ -85,15 +85,35 @@ body, html {
 }
 
 /*=========================================================*/
-/* Mobile CSS classes
+/* Mobile CSS classes */
+
+/* Class for a large image used at the end of the website*/
+.largeImageBostonMob {
+    background-image: url("../photos/stations_boston_mob.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    border-width: 1000px;
+    z-index: 1;
+}
 
 /* Mobile Header Text Align */
 .mobHeadText {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -120%);
     width: 95%;
+}
+
+/* Resume Text Centered with icon in mind */
+.resumeTextMob {
+    font-size: 10px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -117,6 +137,10 @@ body, html {
 }
 
 #projects{
+    position: relative;
+}
+
+#projectsMob{
     position: relative;
 }
 
