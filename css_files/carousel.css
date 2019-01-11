@@ -63,7 +63,7 @@
 
 .carousel-indicators-mob {
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     left: 70%;
     right: 70%;
     z-index: 15;

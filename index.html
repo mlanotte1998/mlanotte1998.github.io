@@ -29,7 +29,7 @@
 
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<div class="w3-top topZIndex">
     <div class="w3-bar w3-white w3-text-black w3-card" id="myNavbar">
         <a href="#home" class="w3-bar-item w3-button w3-wide w3-hide-small">Michael Lanotte</a>
         <a href="#homeMobContainer" class="w3-bar-item w3-button w3-wide w3-hide-medium w3-hide-large">Michael Lanotte</a>
@@ -50,12 +50,12 @@
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large topZIndex" style="display:none"
      id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
     <a href="#resumeMobContainer" onclick="w3_close()" class="w3-bar-item w3-button">RESUME</a>
-    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+    <a href="#projectsMob" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
@@ -186,7 +186,7 @@
 <div id="projects" class="carousel slide w3-hide-small" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-        <li data-target="#projects" data-slide-to="0" class="active"></li>
+        <li data-target="#projects" data-slide-to="0" class=""></li>
         <li data-target="#projects" data-slide-to="1"></li>
         <li data-target="#projects" data-slide-to="2"></li>
     </ol>
@@ -238,17 +238,17 @@
 <div id="projectsMob" class="carousel slide w3-hide-large w3-hide-medium" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators-mob">
-        <li data-target="#projects" data-slide-to="0" class="active"></li>
-        <li data-target="#projects" data-slide-to="1"></li>
-        <li data-target="#projects" data-slide-to="2"></li>
+        <li data-target="#projectsMob" data-slide-to="0" class="active"></li>
+        <li data-target="#projectsMob" data-slide-to="1"></li>
+        <li data-target="#projectsMob" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="photos/iosProject.png" alt="App">
+            <img src="photos/iosAppMob.png" alt="App">
             <div class="centerImageFull">
-                <a href="https://github.com/mlanotte1998/gametracker" class="resumeTextMob w3-center w3-button w3-white"><i
+                <a href="https://github.com/mlanotte1998/gametracker" class="linkIcon1 w3-center w3-button w3-white"><i
                         class="fa fa-github"></i> See the Project</a>
             </div>
         </div>
@@ -259,6 +259,11 @@
                 <a href="https://github.com/mlanotte1998/OOD_Animator_Public"
                    class="resumeTextMob w3-center w3-button w3-white"><i
                         class="fa fa-github"></i> See the Project</a>
+            </div>
+            <div class="carousel-caption smallFont w3-text-black">
+                <h3>IOS App</h3>
+                <p>App I’m currently developing as a personal project. The goal is to have it be able to keep track of
+                    the newest game releases and the games the user has purchased and/or wants to purchase. </p>
             </div>
         </div>
 
@@ -282,6 +287,9 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+
+
 
 <!-- =================================================================================================== -->
 <!-- =================================================================================================== -->
