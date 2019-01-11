@@ -33,6 +33,7 @@ body, html {
     width:100%;
 }
 
+/* Font used for the Header */
 .headerFont {
     font-family: "Times New Roman", Times, serif;
 }
@@ -106,23 +107,13 @@ carousel indicators do not go on top of it when scrolling. */
 }
 
 /* Text for a github link made to be centered in a specific photo */
-.linkIcon1 {
+.linkIcon {
     font-size: 15px;
     position: absolute;
     top: 48%;
     left: 50%;
     transform: translate(-50%, -120%);
 }
-
-/* Text for a github link made to be centered in a specific photo */
-.linkIcon1 {
-    font-size: 15px;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -200%);
-}
-
 
 
 /* Mobile Header Text Align */
@@ -133,26 +124,6 @@ carousel indicators do not go on top of it when scrolling. */
     transform: translate(-50%, -120%);
     width: 95%;
 }
-
-/* Resume Text Centered with icon in mind */
-.resumeTextMob {
-    font-size: 10px;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-.largeWitdh{
-    width: 20%;
-}
-
-.smallFont {
-    font-size: 12px;
-}
-
 
 
 /*==========================================================*/

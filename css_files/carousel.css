@@ -1,3 +1,5 @@
+/* Carousel Code that I made a few changes to from the bootstrap code */ 
+
 .carousel-caption {
     position: absolute;
     right: 20%;
@@ -50,8 +52,6 @@
     background-color: #fff;
 }
 
-
-
 .carousel-website-center {
     font-size: 24px;
     position: absolute;
@@ -68,5 +68,5 @@
     position: absolute;
     top: 48%;
     left: 50%;
-    transform: translate(-50%, 70%);
+    transform: translate(-50%, 50%);
 }
