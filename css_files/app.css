@@ -105,6 +105,26 @@ carousel indicators do not go on top of it when scrolling. */
     z-index: 1;
 }
 
+/* Text for a github link made to be centered in a specific photo */
+.linkIcon1 {
+    font-size: 15px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+}
+
+/* Text for a github link made to be centered in a specific photo */
+.linkIcon1 {
+    font-size: 15px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+}
+
+
+
 /* Mobile Header Text Align */
 .mobHeadText {
     position: absolute;
@@ -123,13 +143,10 @@ carousel indicators do not go on top of it when scrolling. */
     transform: translate(-50%, -50%);
 }
 
-/* Text for a github link made to be centered in a specific photo */
-.linkIcon1 {
-    font-size: 15px;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -120%);
+
+
+.largeWitdh{
+    width: 20%;
 }
 
 .smallFont {
