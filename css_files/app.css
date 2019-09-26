@@ -1,17 +1,23 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
 
-
-body, html {
+body,
+html {
     height: 100%;
     line-height: 1.8;
 }
-
 
 /* button padding */
 .w3-bar .w3-button {
     padding: 16px;
 }
-
 
 /*==========================================================*/
 /* Desktop CSS classes */
@@ -30,7 +36,12 @@ body, html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:100%;
+    width: 100%;
+}
+
+/* Styling for making the two gametracker buttons look better */
+.gameTracker {
+    margin: 10px;
 }
 
 /* Font used for the Header */
@@ -82,7 +93,7 @@ body, html {
 
 /* Custom line height used to reduce space between text when small */
 .small-line-height {
-    line-height: 120%
+    line-height: 120%;
 }
 
 /* Set the z index for the navigation bars to be high so that the
@@ -106,6 +117,12 @@ carousel indicators do not go on top of it when scrolling. */
     z-index: 1;
 }
 
+/* Add a border for the buttons on the gameTracker slide */
+.mobile .gameTracker {
+    margin: 5px;
+    border: 1px solid black;
+}
+
 /* Text for a github link made to be centered in a specific photo */
 .linkIcon {
     font-size: 15px;
@@ -115,6 +132,10 @@ carousel indicators do not go on top of it when scrolling. */
     transform: translate(-50%, -120%);
 }
 
+/* Counter the translation for the gametracker slide by moving it down to fit better */
+.linkIcon .gameTracker {
+    transform: translate(0%, 190%);
+}
 
 /* Mobile Header Text Align */
 .mobHeadText {
@@ -125,53 +146,56 @@ carousel indicators do not go on top of it when scrolling. */
     width: 95%;
 }
 
+/* Moving the carousel indicators for the mobile version to be closer to the bottom
+  and a good width. */
+.w3-hide-medium .carousel-indicators {
+    margin-block-end: 0;
+    bottom: 8px;
+    left: 68%;
+    right: 50%;
+    width: 20%;
+}
 
 /*==========================================================*/
 /* ID CSS style */
 
-#contact{
-    position:relative;
-}
-
-#home{
-    position:relative;
-}
-
-#homeMobContainer{
-    position:relative;
-}
-
-#homeMob{
-    position:relative;
-}
-
-
-#projects{
+#contact {
     position: relative;
 }
 
-#projectsMob{
+#home {
     position: relative;
 }
 
-#resume{
-        position:relative;
+#homeMobContainer {
+    position: relative;
 }
 
-#resumeContainer{
-    background-color:#D8D8D8;
-    position:relative;
+#homeMob {
+    position: relative;
 }
 
-#resumeMobContainer{
-    position:relative;
+#projects {
+    position: relative;
 }
 
-#resumeMob{
-    position:relative;
+#projectsMob {
+    position: relative;
 }
 
+#resume {
+    position: relative;
+}
 
+#resumeContainer {
+    background-color: #d8d8d8;
+    position: relative;
+}
 
+#resumeMobContainer {
+    position: relative;
+}
 
-
+#resumeMob {
+    position: relative;
+}
