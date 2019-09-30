@@ -12,7 +12,6 @@ Welcome to the repository for for my personal website: My website includes:
 Folders
 --------
 
-* old_code = Code from the early stages when I was experimenting with different templates. 
 * other_files = Includes files other than photos and templates, such as pdfs.
 * photos = Includes all images used on the website. 
 * photos/oldPhotos = Includes images used in past versions of the website. 
