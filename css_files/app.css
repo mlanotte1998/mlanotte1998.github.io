@@ -22,6 +22,11 @@ html {
 /*==========================================================*/
 /* Desktop CSS classes */
 
+/* Add a border for the buttons on the Bountium slide */
+.bountium {
+    border: 1px solid black;
+}
+
 /* Centered text for the header photo */
 .centeredHeader {
     position: absolute;
@@ -106,6 +111,11 @@ carousel indicators do not go on top of it when scrolling. */
 /*=========================================================*/
 /* Mobile CSS classes */
 
+/* Bountium button styling */
+.mobile .bountium {
+    font-size: 15px;
+}
+
 /* Class for a large image used at the end of the website*/
 .largeImageBostonMob {
     background-image: url("../photos/stations_boston_mob.png");
@@ -151,7 +161,7 @@ carousel indicators do not go on top of it when scrolling. */
 .w3-hide-medium .carousel-indicators {
     margin-block-end: 0;
     bottom: 8px;
-    left: 68%;
+    left: 70%;
     right: 50%;
     width: 20%;
 }

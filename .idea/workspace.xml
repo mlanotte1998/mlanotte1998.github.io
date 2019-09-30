@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeacda96-6c09-4cf4-abe0-5ec0345ce09e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_files/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_files/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_files/carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_files/MichaelLanotteResume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_files/ResumeAugust2018.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_files/ResumeSummer2018.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photos/OODAnimator.png" beforeDir="false" afterPath="$PROJECT_DIR$/photos/OODAnimator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photos/appleIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photos/appleMob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photos/logoWebsiteMob.png" beforeDir="false" afterPath="$PROJECT_DIR$/photos/logoWebsiteMob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/iosAppMob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/iosProject.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="216" column="30" lean-forward="true" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+            <state relative-caret-position="-259">
+              <caret line="163" column="18" lean-forward="true" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,10 +47,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css_files/carousel.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css_files/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3824">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="194">
+              <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -106,8 +109,8 @@
         <option value="$PROJECT_DIR$/bootstrap-3.3.7-dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/.prettierrc.json" />
-        <option value="$PROJECT_DIR$/css_files/app.css" />
         <option value="$PROJECT_DIR$/css_files/carousel.css" />
+        <option value="$PROJECT_DIR$/css_files/app.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -162,6 +165,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -216,7 +220,7 @@
       <workItem from="1547758907127" duration="52000" />
       <workItem from="1548028068472" duration="588000" />
       <workItem from="1550852003119" duration="130000" />
-      <workItem from="1569095502889" duration="10419000" />
+      <workItem from="1569095502889" duration="12518000" />
     </task>
     <task id="LOCAL-00001" summary="yup">
       <created>1545589253841</created>
@@ -250,7 +254,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49646000" />
+    <option name="totallyTimeSpent" value="51745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -325,20 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css_files/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3824">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css_files/carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photos/logoWebsite.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -346,9 +336,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/photos/OODAnimatorMob.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/logoWebsiteMob.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.prettierrc.json">
@@ -361,10 +348,33 @@
     <entry file="file://$PROJECT_DIR$/photos/webapp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/photos/bostonFinancialMob.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/gametrackerMob.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/logoWebsiteMob.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_files/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_files/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="216" column="30" lean-forward="true" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+        <state relative-caret-position="-259">
+          <caret line="163" column="18" lean-forward="true" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
